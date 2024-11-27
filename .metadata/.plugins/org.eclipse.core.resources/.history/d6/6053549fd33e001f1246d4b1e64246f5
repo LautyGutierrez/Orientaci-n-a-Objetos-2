@@ -1,0 +1,19 @@
+package Ejercicio22_SubteWay;
+
+public class BuilderClasico extends Builder{
+
+	public BuilderClasico() {
+		super();
+	}
+	
+	public abstract void agregarPan() {
+		this.sanguche.agregarComponente(new Componente());
+	}
+
+	public abstract void agregarAderezo();
+	
+	public abstract void agregarPrincipal();
+	
+	public abstract void agregarAdicional();
+
+}

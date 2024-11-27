@@ -1,0 +1,11 @@
+package Ejercicio15_FileManager;
+
+public class FileOO2 {
+	private String nombre;
+	private String extension; 
+	private double tamano;
+	private LocalDate fechaCreacion;
+	Fecha de modificación
+	Permisos
+
+}

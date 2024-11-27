@@ -1,0 +1,7 @@
+package Ejercicio17_ProductosFinancieros;
+
+public class Silver extends Membresia{
+	public Silver() {
+		super(0.05, 35, 72);
+	}
+}

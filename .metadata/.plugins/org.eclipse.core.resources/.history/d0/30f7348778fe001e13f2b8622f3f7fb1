@@ -1,0 +1,19 @@
+package ar.edu.unlp.info.oo2.ejercicio_8;
+
+public class ToDoItem {
+	private String nombre;
+	private Estado estado;
+	
+	public ToDoItem(String name) {
+		nombre = name;
+		estado = new Pending();
+	}
+	
+	public void setEstado(Estado ) {
+		
+	}
+	
+	public void start() {
+		estado.start();
+	}
+}

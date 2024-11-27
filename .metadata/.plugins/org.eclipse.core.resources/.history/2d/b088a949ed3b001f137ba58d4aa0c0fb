@@ -1,0 +1,9 @@
+package Ejercicio6_Topografias;
+
+public abstract class Topografia {
+	public Topografia() {
+		
+	}
+	
+	public abstract double proporcionDeAgua();
+}

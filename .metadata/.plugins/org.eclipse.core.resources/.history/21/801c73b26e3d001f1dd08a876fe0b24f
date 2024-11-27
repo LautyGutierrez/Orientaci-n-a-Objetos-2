@@ -1,0 +1,9 @@
+package Ejercicio15_FileManager;
+
+public class NombreDecorator extends Decorator{
+	public NombreDecorator(FileManager file) {
+		super(file);
+	}
+	
+	public Stric
+}

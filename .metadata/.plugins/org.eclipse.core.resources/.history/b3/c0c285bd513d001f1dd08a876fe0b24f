@@ -1,0 +1,6 @@
+package Ejercicio12_DispositivoMovilYConexiones;
+
+public interface Connection {
+	public void sendData(String data, long crc);
+	public void 
+}

@@ -1,0 +1,37 @@
+package Ejercicio21_GenealogiaSalvaje;
+
+import java.time.LocalDate;
+
+public class NullMamifero implements MamiferoInterface{
+	public String getIdentificador() {
+		return 
+	}
+
+	public void setIdentificador(String id);
+
+	public String getEspecie();
+
+	public void setEspecie(String especie);
+
+	public LocalDate getFechaNacimiento();
+
+	public void setFechaNacimiento(LocalDate fecha);
+
+	public MamiferoInterface getPadre();
+
+	public void setPadre(Mamifero padre);
+
+	public MamiferoInterface getMadre();
+
+	public void setMadre(Mamifero madre);
+
+	public MamiferoInterface getAbueloMaterno();
+
+	public MamiferoInterface getAbuelaMaterna();
+
+	public MamiferoInterface getAbueloPaterno();
+
+	public MamiferoInterface getAbuelaPaterna();
+
+	public Boolean tieneComoAncestroA(MamiferoInterface unMamifero);
+}

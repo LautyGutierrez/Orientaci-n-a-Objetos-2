@@ -1,0 +1,12 @@
+package Ejercicio16_EstacionMetereologica;
+
+public class HomeWeatherStation {
+	
+	
+	
+	//retorna la temperatura en grados Fahrenheit. 
+	public double getTemperatura()
+
+	//retorna la presión atmosférica en hPa
+	
+}

@@ -1,0 +1,26 @@
+package ar.edu.unlp.info.oo2.ejercicio_7;
+
+import java.time.LocalDate;
+
+public abstract class FileSystem {
+	private String nombre;
+	private int tamano;
+	private LocalDate fecha;
+	
+	public FileSystem(String nombre, int tamano, LocalDate fecha) {
+		this.nombre = nombre;
+		this.tamano = tamano;
+		this.fecha = fecha;
+	}
+	
+	public abstract int tamanoTotalOcupado();
+	
+	public Archivo archivoMasGrande();
+	public Archivo archivoMasNuevo() {
+		
+	}
+	
+	public FileSystem buscar(String nombre) {
+		
+	}
+}

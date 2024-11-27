@@ -1,0 +1,11 @@
+package Ejercicio8_ToDoItem;
+
+public class Pending extends State{
+	public Pending() {
+		
+	}
+	
+	public void start(ToDoItem item) {
+		item.
+	}
+}

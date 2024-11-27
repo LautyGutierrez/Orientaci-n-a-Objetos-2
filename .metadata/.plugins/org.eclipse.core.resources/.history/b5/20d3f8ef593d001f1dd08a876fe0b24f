@@ -1,0 +1,10 @@
+package Ejercicio13_DecodificadorDePeliculas;
+
+import java.util.List;
+
+public class Puntaje implements Strategy{
+	public List<Peliculas> sugerir(List<Peliculas> grilla, List<Peliculas> reproducidas){
+		return grilla.stream().filter(p -> !reproducidas.contains(p))
+				.sorted((p1, p2) -> LocalDate.)
+	}
+}

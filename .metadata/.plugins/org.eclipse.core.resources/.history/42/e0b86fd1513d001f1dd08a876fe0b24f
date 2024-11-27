@@ -1,0 +1,6 @@
+package Ejercicio12_DispositivoMovilYConexiones;
+
+public class WiFiConn {
+	public String sendData(String data, long crc);
+	public String pict();
+}

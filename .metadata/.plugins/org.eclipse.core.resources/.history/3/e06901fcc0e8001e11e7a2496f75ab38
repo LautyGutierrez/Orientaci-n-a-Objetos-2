@@ -1,0 +1,14 @@
+package ar.edu.unlp.info.oo2.ejercicio_1;
+
+public class Usuario {
+	private String screenName;
+	private List<Post> tweets;
+	
+	public Usuario(String screenName) {
+		this.screenName = screenName;
+	}
+	
+	public boolean soyEse(String name) {
+		return this.screenName.equals(name);
+	}
+}

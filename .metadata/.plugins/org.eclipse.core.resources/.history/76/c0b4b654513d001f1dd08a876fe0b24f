@@ -1,0 +1,7 @@
+package Ejercicio12_DispositivoMovilYConexiones;
+
+public class CRC32_Calculator implements {
+	public long crcFor(String data) {
+
+	}
+}

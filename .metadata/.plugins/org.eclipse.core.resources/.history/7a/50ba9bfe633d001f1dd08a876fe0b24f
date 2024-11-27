@@ -1,0 +1,6 @@
+package Ejercici14_AccesoALaBaseDeDatos;
+
+public class DatabaseRealAccess implements DatabaseAccess{
+	public int insertNewRow(List<String> rowData);
+
+}

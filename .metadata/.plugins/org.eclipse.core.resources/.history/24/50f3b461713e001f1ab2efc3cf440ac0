@@ -1,0 +1,7 @@
+package Ejercicio17_ProductosFinancieros;
+
+public class CreadorProducto1 {
+	public ProductoFinanciero crear(Membresia m) {
+		return 
+	}
+}

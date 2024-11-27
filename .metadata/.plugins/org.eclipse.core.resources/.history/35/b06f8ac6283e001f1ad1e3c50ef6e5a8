@@ -1,0 +1,6 @@
+package Ejercicio17_ProductosFinancieros;
+
+public class PlazoFijo {
+	private int cantidadDias;
+	
+}

@@ -1,0 +1,6 @@
+package Ejercicio9_Excursiones;
+
+public class Excursion {
+	nombre, fecha de inicio, fecha de fin, punto de encuentro, costo, cupo mínimo y cupo máximo.
+
+}

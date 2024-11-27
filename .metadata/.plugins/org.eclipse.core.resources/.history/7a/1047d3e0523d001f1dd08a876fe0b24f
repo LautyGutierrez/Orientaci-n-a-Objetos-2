@@ -1,0 +1,11 @@
+package Ejercicio12_DispositivoMovilYConexiones;
+
+public class Connection4G implements Connection{
+	public String transmit(String data, long crc) {
+		return "Datos: " + data + "\n" + "CRC: " + crc;
+	}
+	
+	public String pict() {
+		return "Simbolo de WiFi";
+	}
+}

@@ -1,0 +1,9 @@
+package Ejercicio15_FileManager;
+
+public abstract class Decorator {
+	private FileM file;
+	
+	public Decorator(FileManager file) {
+		this.file = file;
+	}
+}

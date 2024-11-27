@@ -1,0 +1,9 @@
+package Ejercicio12_DispositivoMovilYConexiones;
+
+import java.util.zip.CRC32;
+
+public class CRC32_Calculator implements CRC_Calculator{
+	public long crcFor(String data) {
+
+	}
+}

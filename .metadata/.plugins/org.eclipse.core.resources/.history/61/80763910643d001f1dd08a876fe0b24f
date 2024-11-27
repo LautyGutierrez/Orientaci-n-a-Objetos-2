@@ -1,0 +1,7 @@
+package Ejercici14_AccesoALaBaseDeDatos;
+
+import java.util.List;
+
+public interface DatabaseAccess {
+	public int insertNewRow(List<String> rowData);
+}

@@ -1,0 +1,15 @@
+package Ejercicio4_CalculoDeSueldos;
+
+public class Empleado {
+	private boolean estaCasado;
+	private int cantHijos;
+	
+	public Empleado() {
+		this.estaCasado = false;
+		this.cantHijos = 0;
+	}
+	
+	public double descuento() {
+		
+	}
+}

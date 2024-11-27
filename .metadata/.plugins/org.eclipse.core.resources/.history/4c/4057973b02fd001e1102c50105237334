@@ -1,0 +1,8 @@
+package ar.edu.unlp.info.oo2.ejercicio_7;
+
+public class Archivo extends FileSystem{
+	
+	public Archivo(String nombre, int tamano, LocalDate fecha) {
+		super(nombre tamano, fecha);
+	}
+}

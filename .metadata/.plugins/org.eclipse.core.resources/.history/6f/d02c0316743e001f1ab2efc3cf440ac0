@@ -1,0 +1,9 @@
+package Ejercicio17_ProductosFinancieros;
+
+import java.util.Arrays;
+
+public class CreadorProducto2 extends Factory{
+	public ProductoFinanciero crear(Membresia m) {
+		return new ProductoFinanciero(Arrays.asList());
+	}
+}

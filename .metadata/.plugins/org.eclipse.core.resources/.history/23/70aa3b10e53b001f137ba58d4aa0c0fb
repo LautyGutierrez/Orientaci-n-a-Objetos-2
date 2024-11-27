@@ -1,0 +1,9 @@
+package Ejercicio4_CalculoDeSueldos;
+
+public class Temporario Extends Epleado{
+	private int cantHoras;
+	
+	public Temporario(int cant) {
+		
+	}
+}

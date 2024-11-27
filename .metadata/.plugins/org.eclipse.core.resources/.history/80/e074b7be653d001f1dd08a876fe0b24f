@@ -1,0 +1,18 @@
+package Ejercici14_AccesoALaBaseDeDatos;
+
+import java.util.Collection;
+import java.util.List;
+
+public class DatabaseRealAccessProxy implements DatabaseAccess{
+	private DatabaseRealAccess db;
+	private boolean acceso;
+	
+	public DatabaseRealAccessProxy() {
+		this.db = new DatabaseRealAccess();
+	}
+	
+	public int insertNewRow(List<String> rowData) {
+		if()
+	}
+	public Collection<String> getSearchResults(String queryString);
+}

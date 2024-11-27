@@ -1,0 +1,14 @@
+package Ejercicio17_ProductosFinancieros;
+
+public class CompraPesos {
+	private double valorCompra;
+	
+	public CompraPesos(double valor) {
+		super();
+		this.valorCompra = valor;
+	}
+	
+	public double retornoInversion(double monto) {
+		return monto
+	}
+}

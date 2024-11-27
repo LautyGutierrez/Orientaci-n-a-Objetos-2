@@ -1,0 +1,7 @@
+package Ejercicio17_ProductosFinancieros;
+
+public class ProductoCombinado extends ProductoFinanciero{
+	private List<ProductoFinanciero> productos;
+	
+	p
+}

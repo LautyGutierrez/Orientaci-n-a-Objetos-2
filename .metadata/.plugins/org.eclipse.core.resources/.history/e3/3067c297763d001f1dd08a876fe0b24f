@@ -1,0 +1,11 @@
+package Ejercicio16_EstacionMetereologica;
+
+public class WeatherDecorator implements WeatherData{
+	private WeatherData weather;
+	
+	public WeatherDecorator(WeatherData weather) {
+		this.weather = weather;
+	}
+	
+	
+}

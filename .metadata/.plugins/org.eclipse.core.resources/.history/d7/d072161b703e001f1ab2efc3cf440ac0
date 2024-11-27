@@ -1,0 +1,13 @@
+package Ejercicio17_ProductosFinancieros;
+
+public class CompraDolares extends ProductoFinanciero{
+	private final double valorCompra = ;
+	
+	public CompraDolares() {
+		super();
+	}
+	
+	public double retornoInversion(double monto) {
+		return monto;
+	}
+}

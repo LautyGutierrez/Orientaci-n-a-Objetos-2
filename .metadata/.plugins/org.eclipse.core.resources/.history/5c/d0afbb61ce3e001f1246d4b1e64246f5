@@ -1,0 +1,12 @@
+package Ejercicio22_SubteWay;
+
+public class Componente {
+	private String categoria;
+	private String tipo;
+	private double precio;
+	
+	public Componente() {
+		
+	}
+
+}

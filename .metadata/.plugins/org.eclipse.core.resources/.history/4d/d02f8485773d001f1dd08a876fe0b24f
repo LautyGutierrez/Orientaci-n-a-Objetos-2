@@ -1,0 +1,15 @@
+package Ejercicio16_EstacionMetereologica;
+
+public class GradosCelciusDecorator extends WeatherDecorator{
+	public GradosCelciusDecorator(WeatherDecorator weather) {
+		super(weather);
+	}
+	
+	public String displayData() {
+		return super.displayData() + "Temperatura F :" + this.convertirACelcius();
+	}
+	
+	private double convertirACelcius() {
+		return 
+	}
+}

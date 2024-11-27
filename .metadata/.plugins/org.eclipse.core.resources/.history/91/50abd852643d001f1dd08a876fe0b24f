@@ -1,0 +1,8 @@
+package Ejercici14_AccesoALaBaseDeDatos;
+
+import java.util.List;
+
+public class DatabaseRealAccess implements DatabaseAccess{
+	
+
+}

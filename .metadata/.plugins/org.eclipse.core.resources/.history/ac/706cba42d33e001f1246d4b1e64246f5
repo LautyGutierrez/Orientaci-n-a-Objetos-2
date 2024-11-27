@@ -1,0 +1,9 @@
+package Ejercicio22_SubteWay;
+
+public class BuilderClasico {
+
+	public BuilderClasico() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

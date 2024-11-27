@@ -1,0 +1,7 @@
+package Ejercicio6_Topografias;
+
+public class Agua extends Topografia{
+	public Agua() {
+		
+	}
+}

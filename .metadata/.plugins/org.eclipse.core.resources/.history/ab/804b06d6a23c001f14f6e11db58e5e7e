@@ -1,0 +1,12 @@
+package Ejercicio9_Excursiones;
+
+import java.time.LocalDate;
+
+public class Excursion {
+	private String nombre, puntoEncuentro;
+	private LocalDate fechaInicio, fechaFin;
+	private double costo;
+	private int cupoMinimo, cupoMaximo;
+	private 
+
+}

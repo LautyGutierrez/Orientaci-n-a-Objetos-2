@@ -1,0 +1,31 @@
+package Ejercicio19_PersonajesDeRol;
+
+public abstract class Personaje {
+	private String nombre;
+	private Armadura armadura;
+	private Arma arma;
+	private String habilidad;
+	private int vida;
+	
+	public Personaje(String nombre, Armadura a, Arma arma, String h) {
+		this.nombre = nombre;
+		this.armadura = a;
+		this.arma = arma;
+		this.habilidad = h;
+		this.vida = 100;
+	}
+	
+	public Armadura getArmadura() {
+		return this.armadura;
+	}
+	
+	public Arma getArma() {
+		return this.arma;
+	}
+	
+	public boolean 
+	
+	public void atacar() {
+		
+	}
+}

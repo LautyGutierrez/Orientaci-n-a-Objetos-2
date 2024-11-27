@@ -1,0 +1,5 @@
+package Ejercicio17_ProductosFinancieros;
+
+public class CompraDolares extends ProductoFinanciero{
+	
+}

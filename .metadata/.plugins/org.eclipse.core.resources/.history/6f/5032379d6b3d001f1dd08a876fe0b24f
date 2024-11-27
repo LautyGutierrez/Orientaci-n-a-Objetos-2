@@ -1,0 +1,20 @@
+package Ejercicio15_FileManager;
+
+import java.time.LocalDate;
+
+public class FileOO2 {
+	private String nombre;
+	private String extension; 
+	private double tamano;
+	private LocalDate fechaCreacion;
+	private LocalDate fechaModificacion;
+	private String permisos;
+
+	public FileOO2(String nombre, String e, double tam, LocalDtae fecha, String p) {
+		this.nombre = nombre;
+		this.extension = e;
+		this.tamano = tam;
+		this.fechaCreacion = fecha;
+		this.fechaModificacion = fecha;
+	}
+}

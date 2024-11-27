@@ -1,0 +1,69 @@
+package Ejercicio21_GenealogiaSalvaje;
+
+import java.time.LocalDate;
+
+public class Mamifero {
+	private String identificador;
+	private String especie;
+	private LocalDate fechaNacimiento;
+	private Mamifero padre;
+	private Mamifero madre;
+	
+	public Mamifero(String id, String especie, LocalDate fecha, Mamifero padre, Mamifero madre) {
+		this.identificador = id;
+		this.especie = especie;
+		this.fechaNacimiento = fecha;
+		this.padre = padre;
+		this.madre = madre;
+	}
+	
+	public Mamifero() {
+		
+	}
+
+	public String getIdentificador() {
+		return identificador;
+	}
+
+	public void setIdentificador(String identificador) {
+		this.identificador = identificador;
+	}
+
+	public String getEspecie() {
+		return especie;
+	}
+
+	public void setEspecie(String especie) {
+		this.especie = especie;
+	}
+
+	public LocalDate getFechaNacimiento() {
+		return fechaNacimiento;
+	}
+
+	public void setFechaNacimiento(LocalDate fechaNacimiento) {
+		this.fechaNacimiento = fechaNacimiento;
+	}
+
+	public Mamifero getPadre() {
+		return padre;
+	}
+
+	public void setPadre(Mamifero padre) {
+		this.padre = padre;
+	}
+
+	public Mamifero getMadre() {
+		return madre;
+	}
+
+	public void setMadre(Mamifero madre) {
+		this.madre = madre;
+	}
+	
+	public Mamifero getAbuelo
+	
+	public boolean tieneComoAncestroA(Mamifero unMamifero) {
+		
+	}
+}

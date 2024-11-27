@@ -1,0 +1,7 @@
+package Ejercici14_AccesoALaBaseDeDatos;
+
+public class DatabaseRealAccessProxy implements DatabaseAccess{
+	private DatabaseRealAccess db;
+	
+	public d
+}

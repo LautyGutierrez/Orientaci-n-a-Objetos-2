@@ -1,0 +1,7 @@
+package Ejercicio17_ProductosFinancieros;
+
+public class CompraPesos {
+	private double valorCompra;
+	
+	public 
+}

@@ -1,0 +1,23 @@
+package Ejercicio6_Topografias;
+
+public class Tierra extends Topografia{
+	public Tierra() {
+		
+	}
+	
+	public double proporcionDeAgua() {
+		return 0;
+	}
+	
+	public boolean equals(Topografia t) {
+		return t.equalsSimple(this);
+	}
+	
+	public boolean equalsSimple(Topografia t) {
+		return this.proporcionDeAgua() == t.proporcionDeAgua();
+	}
+	
+	public boolean equalsMixta(Mixta m) {
+		return false;
+	}
+}

@@ -1,0 +1,7 @@
+package Ejercicio15_FileManager;
+
+public abstract class Decorator {
+	private FileOO2 file;
+	
+	public Decorator()
+}

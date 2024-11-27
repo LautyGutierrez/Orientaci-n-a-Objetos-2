@@ -1,0 +1,7 @@
+package Ejercicio13_DecodificadorDePeliculas;
+
+import java.util.List;
+
+public class Puntaje implements Strategy{
+	public List<Peliculas> sugerir();
+}

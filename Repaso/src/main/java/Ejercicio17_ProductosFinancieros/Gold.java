@@ -1,0 +1,15 @@
+package Ejercicio17_ProductosFinancieros;
+
+public class Gold extends Membresia{
+	public Gold() {
+		super(0.06, 30, 24);
+	}
+	
+	public ProductoCombinado crearProducto3() {
+		return new CreadorProducto3().crear(this);
+	}
+	
+	public ProductoCombinado crearProducto4() {
+		return new CreadorProducto4().crear(this);
+	}
+}

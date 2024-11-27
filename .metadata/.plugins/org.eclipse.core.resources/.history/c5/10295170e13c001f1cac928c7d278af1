@@ -1,0 +1,8 @@
+package Ejercicio10_Encriptador;
+
+public class ConexionSegura extends Conexion{
+	private Encriptador encriptador;
+	public void enviar(String mensaje) {
+		
+	}
+}

@@ -1,0 +1,16 @@
+package Ejercicio15_FileManager;
+
+public interface FileManager {
+	public String prettyPrint();
+	public String getNombre();
+
+	public String getExtension();
+
+	public double getTamano();
+
+	public String getFechaCreacion();
+
+	public String getFechaModificacion();
+
+	public String getPermisos();
+}

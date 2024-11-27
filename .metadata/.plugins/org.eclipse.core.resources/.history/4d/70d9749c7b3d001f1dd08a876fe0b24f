@@ -1,0 +1,11 @@
+package Ejercicio16_EstacionMetereologica;
+
+public class MinCelciusDecorator extends WeatherDecorator{
+	public MinCelciusDecorator(WeatherData weather) {
+		super(weather);
+	}
+	
+	public String displayData() {
+		return super.displayData() + "Minima C: " + this.convertirACelcius(this.getTemperaturaMinima()) + "";
+	}
+}

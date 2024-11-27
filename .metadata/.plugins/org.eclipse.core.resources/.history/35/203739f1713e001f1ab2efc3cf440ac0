@@ -1,0 +1,9 @@
+package Ejercicio17_ProductosFinancieros;
+
+public abstract class Membresia {
+	protected double tasa;
+	protected int plazo;
+	protected int parking;
+	
+	
+}

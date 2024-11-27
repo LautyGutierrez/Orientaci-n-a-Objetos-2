@@ -1,0 +1,10 @@
+package Ejercicio4_CalculoDeSueldos;
+
+public class Pasante extends Empleado{
+	private int cantExamenes;
+	
+	public Pasante(int cant) {
+		super();
+		
+	}
+}

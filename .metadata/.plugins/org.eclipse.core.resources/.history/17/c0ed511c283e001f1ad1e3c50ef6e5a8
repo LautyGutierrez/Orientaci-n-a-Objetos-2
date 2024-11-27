@@ -1,0 +1,9 @@
+package Ejercicio17_ProductosFinancieros;
+
+public class CompraDolares extends ProductoFinanciero{
+	private double valorCompra;
+	
+	public CompraDolares(double valor) {
+		this.valorCompra = valor;
+	}
+}

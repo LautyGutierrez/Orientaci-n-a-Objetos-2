@@ -1,0 +1,8 @@
+package Ejercicio9_Excursiones;
+
+public abstract class Estado {
+	
+	public String informacion(Excursion e) {
+		return 
+	}
+}

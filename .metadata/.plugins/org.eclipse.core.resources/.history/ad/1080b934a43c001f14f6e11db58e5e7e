@@ -1,0 +1,31 @@
+package Ejercicio9_Excursiones;
+
+import java.time.LocalDate;
+import java.util.List;
+import java.util.ArrayList;
+
+public class Excursion {
+	private String nombre, puntoEncuentro;
+	private LocalDate fechaInicio, fechaFin;
+	private double costo;
+	private int cupoMinimo, cupoMaximo;
+	private Estado estado;
+	private List<Usuario> inscriptos, espera;
+
+	public Excursion(String nombre,LocalDate inicio, LocalDate fin, String puntoE, double costo, int min, int max) {
+		this.nombre = nombre;
+		this.fechaInicio = inicio;
+		this.fechaFin = fin;
+		this.puntoEncuentro = puntoE;
+		this.costo = costo;
+		this.cupoMinimo = min;
+		this.cupoMaximo = max;
+		this.estado = new Provisoria();
+		this.inscriptos = new ArrayList<>();
+		this.espera = new ArrayList<>();
+	}
+	
+	public String informacion() {
+		this.estado.informacion()
+	}
+}

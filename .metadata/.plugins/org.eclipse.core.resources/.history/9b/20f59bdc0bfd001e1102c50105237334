@@ -1,0 +1,40 @@
+package ar.edu.unlp.info.oo2.ejercicio_7;
+
+import java.time.LocalDate;
+import java.util.List;
+import java.util.ArrayList;
+
+public class Archivo extends FileSystem{
+	
+	public Archivo(String nombre,LocalDate fecha) {
+		super(nombre,fecha);
+	}
+	
+	public int tamanoTotalOcupado() {
+		return 0;
+	}
+	
+	public Archivo archivoMasGrande() {
+		return this;
+	}
+	
+	public Archivo archivoMasNuevo() {
+		return this;
+	}
+	
+	public FileSystem buscar(String nombre) {
+		if(this.soyEse(nombre)) return this;
+		return null;
+	}
+	
+	public List<FileSystem> buscarTodos(String nombre){
+		
+		if(this.soyEse(nombre)) {
+			List lista = new ArrayList<>();
+			lista.add(this);
+			return 
+		}
+		return null;
+	}
+	
+}

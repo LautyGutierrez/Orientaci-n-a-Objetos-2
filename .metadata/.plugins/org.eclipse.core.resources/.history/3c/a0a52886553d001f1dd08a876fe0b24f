@@ -1,0 +1,10 @@
+package Ejercicio13_DecodificadorDePeliculas;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class Decodificador {
+	private List<Peliculas> grilla, reproducidas;
+	
+	public Decodificador
+}

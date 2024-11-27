@@ -1,0 +1,11 @@
+package Ejercicio16_EstacionMetereologica;
+
+public class PresionDecorator extends WeatherDecorator{
+	public PresionDecorator(WeatherDecorator weather) {
+		super(weather);
+	}
+	
+	public String displayData() {
+		return super.displayData() + 
+	}
+}

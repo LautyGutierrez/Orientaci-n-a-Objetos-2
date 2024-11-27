@@ -1,0 +1,25 @@
+package Ejercicio22_SubteWay;
+
+public class BuilderVegetariano extends Builder{
+
+	public BuilderVegetariano() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void agregarPan() {
+		this.sanguche.agregarComponente(new Componente("Pan", "con semillas", 120));
+	}
+
+	public void agregarAderezo() {
+		
+	}
+	
+	public void agregarPrincipal() {
+		this.sanguche.agregarComponente(new Componente("Principal", "Provoleta grillada", 200));
+	}
+	
+	public void agregarAdicional() {
+		this.sanguche.agregarComponente(new Componente("Adicional", "Berenjena", 80));
+	}
+
+}

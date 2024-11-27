@@ -1,0 +1,9 @@
+package ar.edu.unlp.info.oo2.ejercicio_8;
+
+public class Pending implements Estado{
+	public Pending() {
+		
+	}
+	
+	public start
+}

@@ -1,0 +1,11 @@
+package ar.edu.unlp.info.oo2.ejercicio_8;
+
+public class Paused implements Estado{
+public InProgress() {
+		
+	}
+	
+	public void start(ToDoItem item) {
+		
+	}
+}

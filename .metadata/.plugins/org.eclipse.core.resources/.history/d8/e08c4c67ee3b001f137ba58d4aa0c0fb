@@ -1,0 +1,7 @@
+package Ejercicio6_Topografias;
+
+import java.util.List;
+
+public class Mixta extends Topografia{
+	private List<Topografia> lista; 
+}

@@ -1,0 +1,10 @@
+package Ejercicio4_CalculoDeSueldos;
+
+public class Planta extends Empleado{
+	private int antiguedad;
+	
+	public Planta(int cant) {
+		super();
+		
+	}
+}

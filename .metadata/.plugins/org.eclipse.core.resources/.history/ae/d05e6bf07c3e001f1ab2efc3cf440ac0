@@ -1,0 +1,7 @@
+package Ejercicio19_PersonajesDeRol;
+
+public class CreadorGuerrero implements Creador{
+	public Personaje crear() {
+		return new Personaje()
+	}
+}

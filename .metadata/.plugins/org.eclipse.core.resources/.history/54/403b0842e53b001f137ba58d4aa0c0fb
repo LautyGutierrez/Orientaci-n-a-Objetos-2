@@ -1,0 +1,16 @@
+package Ejercicio4_CalculoDeSueldos;
+
+public class Temporario extends Empleado{
+	private int cantHoras;
+	
+	public Temporario(int cant) {
+		super();
+		this.cantHoras = cant;
+	}
+	
+	public double basico() {
+		return super.basico() +
+	}
+	
+	
+}

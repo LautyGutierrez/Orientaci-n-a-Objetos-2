@@ -1,0 +1,72 @@
+package Ejercicio7_FileSystem;
+
+import java.util.List;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.time.chrono.ChronoPeriod;
+
+public class Directorio extends FileSystem{
+	private List<FileSystem> contenido;
+	private static final int tamano = 32; 
+	
+	public Directorio(String nombre, LocalDate fecha) {
+		super(nombre, fecha);
+		this.contenido = new ArrayList<>();
+	}
+	
+	/**
+	* Retorna el espacio total ocupado, incluyendo todo su contenido.
+	*/
+	public int tamanoTotalOcupado() {
+		return this.contenido.stream().mapToInt(file -> file.tamanoTotalOcupado()).sum() + this.tamano;
+	}
+
+	    	/**
+	* Retorna el archivo con mayor cantidad de bytes en cualquier nivel del 
+	* filesystem 
+	*/
+	public Archivo archivoMasGrande() {
+		return this.contenido.stream().map(file -> file.archivoMasGrande())
+		.max((f1, f2) -> Integer.compare(f1.tamanoTotalOcupado(), f2.tamanoTotalOcupado())).orElse(null);
+	}
+	
+	/**
+	* Retorna el archivo con fecha de creación más reciente en cualquier nivel 
+	* del filesystem
+	*/
+	public Archivo archivoMasNuevo() {
+		return this.contenido.stream().map(file -> file.archivoMasNuevo())
+				.max((f1, f2) -> f1.getFecha().compareTo(f2.getFecha())).orElse(null);
+	}
+
+	/**
+	* Retorna el primer elemento con el nombre solicitado contenido en cualquier
+	* nivel del filesystem
+	*/
+	public FileSystem buscar(String nombre) {
+		if(this.soyEse(nombre)) return this;
+		return this.contenido.stream().map(file -> file.buscar(nombre)).findFirst().orElse(null);
+	}
+
+	/**
+	* Retorna la lista con los elementos que coinciden con el nombre solicitado 
+	* contenido en cualquier nivel del filesystem
+	*/
+	public List<FileSystem> buscarTodos(String nombre){
+		List
+	}
+
+	/**
+	* Retorna un String con los nombres de los elementos contenidos en todos los 
+	* niveles del filesystem. De cada elemento debe retornar el path completo
+	* (similar al comando pwd de linux) siguiendo el modelo presentado a
+	* continuación
+	/Directorio A
+	/Directorio A/Directorio A.1
+	/Directorio A/Directorio A.1/Directorio A.1.1
+	/Directorio A/Directorio A.1/Directorio A.1.2 	
+	/Directorio A/Directorio A.2
+	/Directorio B
+	*/
+	public abstract String listadoDeContenido();
+}

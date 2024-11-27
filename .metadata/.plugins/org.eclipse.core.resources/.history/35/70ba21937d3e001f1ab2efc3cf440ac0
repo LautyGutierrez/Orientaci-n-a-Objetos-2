@@ -1,0 +1,7 @@
+package Ejercicio19_PersonajesDeRol;
+
+public class CreadorArquero {
+	public Personaje crear(String nombre) {
+		return new Personaje(nombre, new ArmaduraAcero(), new Espada(), "Cuerpo a cuerpo");
+	}
+}

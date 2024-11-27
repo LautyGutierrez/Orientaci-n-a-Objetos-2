@@ -1,0 +1,11 @@
+package ar.edu.unlp.info.oo2.ejercicio_7;
+
+import java.time.LocalDate;
+
+public class Directorio extends FileSystem{
+	public Directorio(String nombre, LocalDate fecha) {
+		super(nombre, fecha);
+	}
+	
+	public Archivo
+}

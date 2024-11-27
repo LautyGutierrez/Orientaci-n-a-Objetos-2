@@ -1,0 +1,14 @@
+package Ejercicio8_ToDoItem;
+
+import java.time.LocalDateTime;
+
+public class Pending extends State{
+	public Pending() {
+		
+	}
+	
+	public void start(ToDoItem item) {
+		item.setEstado(new InProgress());
+		item.setInicio(LocalDateTime.now());
+	}
+}

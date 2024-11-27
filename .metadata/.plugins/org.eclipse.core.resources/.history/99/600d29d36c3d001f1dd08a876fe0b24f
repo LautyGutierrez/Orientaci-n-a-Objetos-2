@@ -1,0 +1,6 @@
+package Ejercicio15_FileManager;
+
+public interface FileManager {
+	public String prettyPrint();
+	
+}

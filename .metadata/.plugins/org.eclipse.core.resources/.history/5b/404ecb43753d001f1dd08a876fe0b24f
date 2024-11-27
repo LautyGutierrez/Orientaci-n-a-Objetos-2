@@ -1,0 +1,7 @@
+package Ejercicio16_EstacionMetereologica;
+
+public class HomeWeatherStationAdapter implements WeatherData{
+	private HomeWeatherStation weather;
+	
+	public HomeW
+}

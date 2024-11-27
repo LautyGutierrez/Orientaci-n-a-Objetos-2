@@ -1,0 +1,7 @@
+package Ejercicio16_EstacionMetereologica;
+
+public class PromedioFahrenheit extends WeatherDecorator{
+	public PromedioFahrenheit(WeatherData weather) {
+		s
+	}
+}

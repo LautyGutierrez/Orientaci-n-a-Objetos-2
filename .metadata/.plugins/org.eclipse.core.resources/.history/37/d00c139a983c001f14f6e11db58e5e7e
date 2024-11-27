@@ -1,0 +1,25 @@
+package Ejercicio8_ToDoItem;
+
+import java.time.Duration;
+
+public abstract class State {
+	public State() {
+		
+	}
+	
+	public void start(ToDoItem item) {
+		
+	}
+	
+	public void togglePause(ToDoItem item) {
+		throw new RuntimeException("El objeto ToDoItem no se encuentra en pause o in-progress");
+	}
+	
+	public void finish(ToDoItem item) {
+		
+	}
+	
+	public Duration workedTime() {
+		return Duration.between(null, null)
+	}
+}

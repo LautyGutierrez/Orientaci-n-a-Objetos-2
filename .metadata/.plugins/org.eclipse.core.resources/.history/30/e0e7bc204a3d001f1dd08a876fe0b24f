@@ -1,0 +1,7 @@
+package Ejercicio11_AdministradorDeProyectos;
+
+public class EnConstruccion extends Etapa{
+	public void aprobarEtapa(Proyecto p) {
+		if(p.precioDelProyecto() > 0)
+	}
+}

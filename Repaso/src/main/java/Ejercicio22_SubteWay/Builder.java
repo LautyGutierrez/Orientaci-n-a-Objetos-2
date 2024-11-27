@@ -1,0 +1,25 @@
+package Ejercicio22_SubteWay;
+
+public abstract class Builder {
+	protected Sanguche sanguche;
+	
+	public Builder() {
+		this.sanguche = null;
+	}
+	
+	public void nuevoSanguche() {
+		this.sanguche = new Sanguche();
+	}
+	
+	public abstract void agregarPan();
+
+	public abstract void agregarAderezo();
+	
+	public abstract void agregarPrincipal();
+	
+	public abstract void agregarAdicional();
+	
+	public Sanguche devolverSanguche() {
+		return this.sanguche;
+	}
+}

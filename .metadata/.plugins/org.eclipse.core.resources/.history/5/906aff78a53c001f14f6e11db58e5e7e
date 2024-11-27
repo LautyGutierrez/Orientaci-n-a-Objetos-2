@@ -1,0 +1,5 @@
+package Ejercicio9_Excursiones;
+
+public class Definitiva extends Estado{
+	
+}

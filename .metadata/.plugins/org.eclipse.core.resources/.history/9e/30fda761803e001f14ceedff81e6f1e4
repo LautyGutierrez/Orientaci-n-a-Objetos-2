@@ -1,0 +1,17 @@
+package Ejercicio21_GenealogiaSalvaje;
+
+import java.time.LocalDate;
+
+public class Mamifero {
+	private String identificador;
+	private String especie;
+	private LocalDate fechaNacimiento;
+	private Mamifero padre;
+	private Mamifero madre;
+	
+	public Mamifero(String id, String especie, LocalDate fecha, Mamifero padre, Mamifero madre) {
+		this.identificador = id;
+		this.especie = especie;
+		this
+	}
+}

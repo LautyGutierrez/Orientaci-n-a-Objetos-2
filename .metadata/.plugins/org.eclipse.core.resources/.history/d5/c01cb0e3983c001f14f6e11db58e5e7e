@@ -1,0 +1,7 @@
+package Ejercicio8_ToDoItem;
+
+public class Finished extends State{
+	ublic Finished() {
+		
+	}
+}

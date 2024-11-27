@@ -1,0 +1,11 @@
+package Ejercicio16_EstacionMetereologica;
+
+public class GradosFahrenheitDecorator extends WeatherDecorator{
+	public GradosFahrenheitDecorator(WeatherDecorator weather) {
+		super(weather);
+	}
+	
+	public String displayData() {
+		return super.displayData() 
+	}
+}

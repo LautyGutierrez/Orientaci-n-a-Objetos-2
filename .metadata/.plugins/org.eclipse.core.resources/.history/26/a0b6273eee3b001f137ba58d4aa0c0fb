@@ -1,0 +1,5 @@
+package Ejercicio6_Topografias;
+
+public class Mixta extends Topografia{
+	private 
+}

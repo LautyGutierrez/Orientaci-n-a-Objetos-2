@@ -1,0 +1,7 @@
+package Ejercicio16_EstacionMetereologica;
+
+public class RadiacionSolarDecorator extends WeatherDecorator{
+	public RadiacionSolarDecorator(WeatherData weather) {
+		super(weather);
+	}
+}

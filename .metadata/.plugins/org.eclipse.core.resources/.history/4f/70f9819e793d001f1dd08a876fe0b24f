@@ -1,0 +1,9 @@
+package Ejercicio16_EstacionMetereologica;
+
+public class PromedioCelciusDecorator extends WeatherDexorator{
+	public PromedioCelciusDecorator(WeatherData weather) {
+		super(weather);
+	}
+	
+	
+}

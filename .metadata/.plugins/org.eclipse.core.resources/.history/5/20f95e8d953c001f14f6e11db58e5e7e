@@ -1,0 +1,11 @@
+package Ejercicio8_ToDoItem;
+
+public abstract class State {
+	public State() {
+		
+	}
+	
+	public void start() {
+		
+	}
+}

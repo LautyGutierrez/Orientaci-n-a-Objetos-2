@@ -1,0 +1,8 @@
+package Ejercicio9_Excursiones;
+
+public class Usuario {
+	private String nombre, apellido, email;
+	
+	public Usuario(St)
+
+}

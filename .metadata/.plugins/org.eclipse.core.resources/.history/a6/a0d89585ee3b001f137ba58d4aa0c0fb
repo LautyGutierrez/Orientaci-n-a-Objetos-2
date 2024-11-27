@@ -1,0 +1,15 @@
+package Ejercicio6_Topografias;
+
+import java.util.List;
+
+public class Mixta extends Topografia{
+	private List<Topografia> lista; 
+	
+	public Mixta() {
+		
+	}
+	
+	public double proporcionDeAgua() {
+		return this.lista.stream()
+	}
+}

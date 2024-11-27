@@ -1,0 +1,34 @@
+package Ejercicio16_EstacionMetereologica;
+
+import java.util.List;
+
+public class HomeWeatherStationAdapter implements WeatherData{
+	private HomeWeatherStation weather;
+	
+	public HomeWeatherStationAdapter(HomeWeatherStation weather) {
+		this.weather = weather;
+	}
+	
+	//retorna la temperatura en grados Fahrenheit. 
+	public double getTemperatura() {
+		return this.weather.getTemperatura();
+	}
+
+	//retorna la presión atmosférica en hPa
+	public double getPresion() {
+		return this.weather.getPresion();
+	}
+
+	//retorna la radiación solar
+	public double getRadiacionSolar() {
+		rrn this.weather.getRadiacionSolar();
+	}
+
+	//retorna una lista con todas las temperaturas sensadas hasta el momento, en grados Fahrenheit
+	public List<Double> getTemperaturas(){
+		return this.getTemperaturas()
+	}
+			
+	//retorna  un reporte de todos los datos: temperatura, presión, y radiación solar.
+	public String displayData();
+}

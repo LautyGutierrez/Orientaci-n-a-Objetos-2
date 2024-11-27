@@ -1,0 +1,7 @@
+package Ejercicio19_PersonajesDeRol;
+
+public class CreadorThoor {
+	public Personaje crear(String nombre) {
+		return new Personaje(nombre, new ArmaduraHierro(), new Espada(), "Cuerpo a cuerpo");
+	}
+}

@@ -1,0 +1,9 @@
+package Ejercicio22_SubteWay;
+
+public class BuilderSinTACC {
+
+	public BuilderSinTACC() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,7 @@
+package Ejercicio6_Topografias;
+
+public abstract class Simple extends {
+	public Simple() {
+		
+	}
+}

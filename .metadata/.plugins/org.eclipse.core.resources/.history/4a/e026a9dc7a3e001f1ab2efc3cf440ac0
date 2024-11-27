@@ -1,0 +1,15 @@
+package Ejercicio19_PersonajesDeRol;
+
+public class ArmaduraAcero {
+	public int recibirEspada() {
+		return 3;
+	}
+	
+	public int recibirArco() {
+		return 3;
+	}
+	
+	public int recibirBaston() {
+		return 1;
+	}
+}

@@ -1,0 +1,9 @@
+package Ejercicio17_ProductosFinancieros;
+
+import java.time.LocalDate;
+
+public abstract class ProductoFinanciero {
+	protected LocalDate fechaOperacion;
+	
+	publicProducto
+}

@@ -1,0 +1,11 @@
+package Ejercicio8_ToDoItem;
+
+public class Paused extends State{
+	public Paused() {
+		
+	}
+	
+	public void togglePause(ToDoItem item) {
+		item.setEstado(new Paused());
+	}
+}

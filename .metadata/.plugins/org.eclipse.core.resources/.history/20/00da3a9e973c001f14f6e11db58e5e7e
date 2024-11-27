@@ -1,0 +1,10 @@
+package Ejercicio8_ToDoItem;
+
+public class InProgress extends State{
+	public InProgress() {
+		
+	}
+	
+	throw new RuntimeException("El objeto ToDoItem no se encuentra en pause o in-progress");
+
+}

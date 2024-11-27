@@ -1,0 +1,7 @@
+package Ejercicio9_Excursiones;
+
+public class Excursion {
+	private String nombre, 
+	private LocalDate fecha de inicio, fecha de fin, punto de encuentro, costo, cupo mínimo y cupo máximo.
+
+}

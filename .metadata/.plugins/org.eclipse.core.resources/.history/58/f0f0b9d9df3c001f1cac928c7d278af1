@@ -1,0 +1,8 @@
+package Ejercicio9_Excursiones;
+
+public class EnEspera extends Estado{
+	public void inscribir(Excursion e, Usuario user) {
+		e.agregarInscripto(user);
+		if(e.getInscriptos().size() >= e.getCupoMinimo()) e.setEstado(new Definitiva()); 
+	}
+}

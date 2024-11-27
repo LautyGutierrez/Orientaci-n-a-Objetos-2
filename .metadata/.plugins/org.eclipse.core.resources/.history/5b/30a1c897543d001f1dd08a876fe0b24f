@@ -1,0 +1,6 @@
+package Ejercicio13_DecodificadorDePeliculas;
+
+public class Peliculas {
+	private String titulo;
+	año de estreno, películas similares y puntaje
+}

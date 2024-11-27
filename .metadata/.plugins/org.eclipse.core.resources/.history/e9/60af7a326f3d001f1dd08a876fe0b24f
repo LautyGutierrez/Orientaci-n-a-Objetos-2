@@ -1,0 +1,11 @@
+package Ejercicio15_FileManager;
+
+public class FechaCreacionDecorator extends {
+	public ExtensionDecorator(FileManager file) {
+		super(file);
+	}
+	
+	public String prettyPrint() {
+		return super.prettyPrint() + "Extension: " + this.getExtension() + "\n";
+	}
+}

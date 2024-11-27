@@ -1,0 +1,8 @@
+package Ejercicio9_Excursiones;
+
+public class Provisoria extends Estado{
+	
+	public String informacion(Excursion e) {
+		return super.informacion(e) + "Cantidad de faltantes "
+	}
+}

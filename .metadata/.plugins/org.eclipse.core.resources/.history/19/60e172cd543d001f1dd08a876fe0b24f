@@ -1,0 +1,13 @@
+package Ejercicio13_DecodificadorDePeliculas;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class Peliculas {
+	private String titulo;
+	private int estreno;
+	private List<Peliculas> similares;
+	private double puntaje;
+	
+	public Peliculas(String titulo)
+}

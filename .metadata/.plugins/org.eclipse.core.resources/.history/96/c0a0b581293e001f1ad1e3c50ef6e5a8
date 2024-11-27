@@ -1,0 +1,7 @@
+package Ejercicio17_ProductosFinancieros;
+
+public class CompraBonoBajoRiesgo extends ProductoFinanciero{
+	private int parking;
+	
+	
+}

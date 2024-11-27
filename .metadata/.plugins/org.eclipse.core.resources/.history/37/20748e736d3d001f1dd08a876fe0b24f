@@ -1,0 +1,27 @@
+package Ejercicio15_FileManager;
+
+public abstract class Decorator implements FileManager{
+	private FileManager file;
+	
+	public Decorator(FileManager file) {
+		this.file = file;
+	}
+	
+	public String prettyPrint() {
+		return this.file.prettyPrint();
+	}
+	
+	public String getNombre() {
+		return this.file
+	}
+
+	public String getExtension();
+
+	public String getTamano();
+
+	public String getFechaCreacion();
+
+	public String getFechaModificacion();
+
+	public String getPermisos();
+}

@@ -1,0 +1,7 @@
+package Ejercicio5_MediaPlayer;
+
+public class MediaPlayer {
+	public Media media;
+	
+	
+}

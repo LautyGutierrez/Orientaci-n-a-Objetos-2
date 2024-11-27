@@ -1,0 +1,7 @@
+package Ejercicio8_ToDoItem;
+
+public class InProgress extends State{
+	public InProgress() {
+		
+	}
+}

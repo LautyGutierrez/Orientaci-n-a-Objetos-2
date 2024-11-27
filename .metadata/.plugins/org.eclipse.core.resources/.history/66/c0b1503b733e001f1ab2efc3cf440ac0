@@ -1,0 +1,29 @@
+package Ejercicio17_ProductosFinancieros;
+
+public abstract class Membresia {
+	protected double tasa;
+	protected int plazo;
+	protected int parking;
+	
+	public Membresia(double tasa, int plazo, int parking) {
+		this.tasa = tasa;
+		this.plazo = plazo;
+		this.parking = parking;
+	}
+	
+	public double getTasa() {
+		return this.tasa;
+	}
+	
+	public int getPlazo() {
+		return this.plazo;
+	}
+	
+	public int getParking() {
+		return this.parking;
+	}
+	
+	public ProductoFinanciero crearProducto1() {
+		return new CreadorPo
+	}
+}

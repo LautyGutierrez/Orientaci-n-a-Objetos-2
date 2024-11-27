@@ -1,0 +1,7 @@
+package Ejercicio12_DispositivoMovilYConexiones;
+
+public class Dispositivo {
+	private Ringer ringer;
+	private Display display;
+	private CRC_Calculator crcCalculator;
+}

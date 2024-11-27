@@ -1,0 +1,6 @@
+package Ejercicio19_PersonajesDeRol;
+
+public interface Armadura {
+	public int recibirEspada(int dano);
+	public int recibir
+}

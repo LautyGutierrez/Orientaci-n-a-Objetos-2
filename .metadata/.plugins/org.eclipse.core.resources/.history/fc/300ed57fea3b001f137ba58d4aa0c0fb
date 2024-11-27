@@ -1,0 +1,11 @@
+package Ejercicio5_MediaPlayer;
+
+public class MediaPlayer {
+	public Media media;
+	
+	public MediaPlayer(Media media) {
+		this.media = media;
+	}
+	
+	public vpi
+}

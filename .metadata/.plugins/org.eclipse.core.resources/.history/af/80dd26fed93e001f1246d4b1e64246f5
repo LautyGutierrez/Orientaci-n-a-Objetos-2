@@ -1,0 +1,24 @@
+package Ejercicio22_SubteWay;
+
+public class BuilderVegano extends Builder{
+
+	public BuilderVegano() {
+		super();
+	}
+
+	public void agregarPan() {
+		this.sanguche.agregarComponente(new Componente("Pan", "Integral", 100));
+	}
+
+	public void agregarAderezo() {
+		this.sanguche.agregarComponente(new Componente("Principal", "Provoleta grillada", 200));
+	}
+	
+	public void agregarPrincipal() {
+		this.sanguche.agregarComponente(new Componente("Principal", "Provoleta grillada", 200));
+	}
+	
+	public void agregarAdicional() {
+		this.sanguche.agregarComponente(new Componente("Adicional", "Berenjenas al escabeche", 100));
+	}
+}

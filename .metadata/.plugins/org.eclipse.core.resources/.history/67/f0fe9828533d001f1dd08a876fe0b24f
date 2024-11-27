@@ -1,0 +1,16 @@
+package Ejercicio12_DispositivoMovilYConexiones;
+
+public class Connection4GAdapter implements Connection{
+	private Connection4G c4g;
+	
+	public Connection4GAdapter() {
+		this.c4g = new Connection4G();
+	}
+	public String sendData(String data, long crc) {
+		return this.c4g.transmit(data, crc);
+	}
+	
+	public String pict() {
+		return this.c4g;
+	}
+}

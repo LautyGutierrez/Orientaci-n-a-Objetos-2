@@ -1,0 +1,7 @@
+package Ejercicio19_PersonajesDeRol;
+
+public class ArmaduraHierro implements Armadura{
+	public int recibirEspada() {
+		return
+	}
+}

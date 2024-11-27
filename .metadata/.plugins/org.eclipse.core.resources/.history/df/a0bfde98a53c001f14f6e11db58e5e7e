@@ -1,0 +1,7 @@
+package Ejercicio9_Excursiones;
+
+public class Definitiva extends Estado{
+	public String informacion(Excursion e){
+		int faltantes = e.getCupoMaximo() - e.getInscriptos().size();		return super.informacion(e) + 
+	}
+}

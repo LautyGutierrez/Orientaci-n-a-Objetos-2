@@ -1,0 +1,11 @@
+package Ejercicio22_SubteWay;
+
+import java.util.List;
+
+public class Sanguche {
+	private List<Componente> componentes;
+	public Sanguche() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

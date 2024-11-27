@@ -1,0 +1,7 @@
+package Ejercicio12_DispositivoMovilYConexiones;
+
+public class CRC16_Calculator implements CRC_Calculator{
+	public int crcFor(String data) {
+		
+	}
+}

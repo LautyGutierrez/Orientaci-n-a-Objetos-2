@@ -1,0 +1,37 @@
+package ar.edu.unlp.info.oo2.ejercicio_7;
+
+import java.time.LocalDate;
+import java.util.List;
+import java.util.ArrayList;
+
+public class Directorio extends FileSystem{
+	private List<FileSystem> elementos;
+	
+	public Directorio(String nombre, LocalDate fecha) {
+		super(nombre, fecha);
+		elementos = new ArrayList<FileSystem>();
+	}
+	
+	public int tamanoTotalOcupado() {
+		return this.elementos.stream().mapToInt(e -> e.tamanoTotalOcupado()).sum() + 32;
+	}
+	
+	public Archivo archivoMasGrande() {
+		return this.elementos.stream().map(e -> e.archivoMasGrande()).max((e1, e2) -> Integer.compare(e1.tamanoTotalOcupado(), e2.tamanoTotalOcupado())).orElse(null);
+	}
+	
+	public Archivo archivoMasNuevo() {
+		return this.elementos.stream().map(e -> e.archivoMasNuevo()).max((e1, e2) -> e1.getFecha().compareTo(e2.getFecha())).orElse(null);
+	}
+	
+	public FileSystem buscar(String nombre) {
+		return this.elementos.stream().filter(e -> e.igualNombre(nombre)).findFirst().orElse(null);
+	}
+	
+	public FileSystem buscarTodos(String nombre) {
+		return this.elementos.stream().filter(e -> e.igualNombre(nombre)).collect(Collectors.toList());
+	}
+	
+	
+	
+}

@@ -1,0 +1,6 @@
+package Ejercicio17_ProductosFinancieros;
+
+public abstract class ProductoFinanciero {
+	protected LocalDate fechaOperacion;
+	
+}

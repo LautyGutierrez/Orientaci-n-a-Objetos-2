@@ -1,0 +1,9 @@
+package Ejercicio10_Encriptador;
+
+public class Encriptador {
+	private Algoritmo algoritmo;
+	
+	public Encriptador(lgoritmo a) {
+		this.algoritmo = a;
+	}
+}

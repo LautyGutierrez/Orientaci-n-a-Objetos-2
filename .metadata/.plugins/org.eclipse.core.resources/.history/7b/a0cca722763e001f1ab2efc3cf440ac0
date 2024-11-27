@@ -1,0 +1,15 @@
+package Ejercicio17_ProductosFinancieros;
+
+public class Gold {
+	public Gold() {
+		super(0.06, 30, 24);
+	}
+	
+	public ProductoCombinado crearProducto3() {
+		throw new RuntimeException("Este tipo de membresía no incluye este producto.");
+	}
+	
+	public ProductoCombinado crearProducto4() {
+		throw new RuntimeException("Este tipo de membresía no incluye este producto.");
+	}
+}
