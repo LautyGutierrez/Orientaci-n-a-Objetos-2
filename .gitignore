@@ -1,5 +1,5 @@
-.metadata/
-.classpath
+.metadata/*
+*.classpath
 .project
 .setting/
 target/
